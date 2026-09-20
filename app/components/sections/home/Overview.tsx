@@ -75,7 +75,7 @@ export default function Overview() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-[2px] border border-[#96702A]/25 bg-[#0B2545]/[0.04]">
               <span className="w-1.5 h-1.5 rotate-45 bg-[#96702A] shadow-[0_0_6px_#96702A] shrink-0" />
               <span className="text-[9.5px] sm:text-[10.5px] font-sans uppercase tracking-[0.22em] text-[#96702A] font-semibold truncate">
-                Chamber Profile & Ethos
+                Profile & Ethos
               </span>
             </div>
 
@@ -92,7 +92,7 @@ export default function Overview() {
               <p>
                 Founded upon the bedrock of unyielding statutory integrity and academic rigour,{" "}
                 <strong className="font-medium text-[#0B2545]">RS Juris & Co.</strong> operates at the
-                vanguard of contemporary Indian jurisprudence. Our chambers combine high-stakes trial
+                vanguard of contemporary Indian jurisprudence. Our Firm combine high-stakes trial
                 advocacy with commercial foresight to protect personal liberties and sovereign business interests.
               </p>
               <p className="text-slate-600">
@@ -108,7 +108,7 @@ export default function Overview() {
                   RS JURIS & CO.
                 </div>
                 <div className="text-[10px] uppercase tracking-[0.2em] text-[#96702A] font-medium mt-0.5">
-                  Supreme Court & Appellate Chambers
+                  Your Rights | Our Priority
                 </div>
               </div>
 
@@ -117,7 +117,7 @@ export default function Overview() {
                   href="/contact"
                   className="group inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-[2px] bg-[#0B2545] hover:bg-[#13315C] text-[#E8D091] border border-[#C9A24D]/40 text-xs uppercase tracking-[0.16em] font-medium transition-all shadow-[0_4px_16px_rgba(11,37,69,0.18)] w-full sm:w-auto"
                 >
-                  <span>Engage Chambers</span>
+                  <span>Contact Us</span>
                   <ArrowUpRight className="w-3.5 h-3.5 text-[#D4AF37] transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </Link>
               </motion.div>
@@ -202,7 +202,7 @@ export default function Overview() {
           {/* Mobile Swipe Hint */}
           <div className="flex sm:hidden items-center justify-between mb-4 px-1">
             <span className="text-[10px] uppercase tracking-[0.18em] text-[#96702A] font-semibold">
-              Chambers Pillars
+              Firm Pillars
             </span>
             <span className="text-[9.5px] text-slate-600 font-sans">
               Swipe to explore →

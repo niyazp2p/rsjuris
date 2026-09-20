@@ -131,7 +131,7 @@ export default function OurCommitment() {
 
           <div className="space-y-1">
             <div className="text-[10px] sm:text-[11px] font-sans font-semibold uppercase tracking-[0.24em] text-[#96702A]">
-              Chambers Trust Covenant
+              Trust Covenant
             </div>
             <h3 className="font-serif text-xl sm:text-2xl lg:text-3xl text-[#0B2545] font-light italic">
               &ldquo;Your Rights | Our Priority&rdquo;
@@ -199,7 +199,7 @@ export default function OurCommitment() {
         <div className="mt-12 sm:mt-16 pt-8 sm:pt-10 border-t border-[#96702A]/20 flex flex-col lg:flex-row items-center justify-between gap-6">
           <div className="text-center lg:text-left space-y-1">
             <div className="text-xs uppercase font-sans tracking-[0.16em] text-[#0B2545] font-semibold">
-              Engage Senior Chambers Counsel
+              Engage Senior Counsel
             </div>
             <div className="text-xs text-slate-500 font-light">
               Direct consultation before the Supreme Court, High Courts, and Central Tribunals.
@@ -212,7 +212,7 @@ export default function OurCommitment() {
               className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-[2px] border border-[#96702A]/35 hover:border-[#96702A] bg-transparent hover:bg-white/60 text-[#0B2545] hover:text-[#96702A] font-semibold text-xs uppercase tracking-[0.14em] transition-colors text-center"
             >
               <Phone className="w-3.5 h-3.5 text-[#96702A]" />
-              <span>Call Chamber Registry</span>
+              <span>Call Registry</span>
             </a>
 
             <Link

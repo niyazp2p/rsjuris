@@ -58,7 +58,7 @@ const practiceVerticals: PracticeVertical[] = [
     summary:
       "Formidable courtroom representation across High Courts and the Supreme Court of India in commercial, civil, and constitutional disputes.",
     detailedOverview:
-      "We provide seasoned advocacy before original and appellate jurisdictions nationwide. From high-value breach-of-contract trials and recovery suits to constitutional writ proceedings, our litigation chambers prioritize strategic precision and interim injunctive relief.",
+      "We provide seasoned advocacy before original and appellate jurisdictions nationwide. From high-value breach-of-contract trials and recovery suits to constitutional writ proceedings, our firm prioritize strategic precision and interim injunctive relief.",
     keyHighlights: [
       "Commercial Suits & Injunctions",
       "Supreme Court Special Leave Petitions",
@@ -109,7 +109,7 @@ const practiceVerticals: PracticeVertical[] = [
     summary:
       "Discreet advisory for family succession, trust structuring, matrimonial proceedings, and multi-asset partition settlements.",
     detailedOverview:
-      "Our chambers manage sensitive domestic relations, high-net-worth matrimonial disputes, custody litigation, and multi-generational estate partitioning with utmost discretion and empathetic fiduciary care.",
+      "Our firm manage sensitive domestic relations, high-net-worth matrimonial disputes, custody litigation, and multi-generational estate partitioning with utmost discretion and empathetic fiduciary care.",
     keyHighlights: [
       "HNW Matrimonial & Divorce Proceedings",
       "Child Custody & Guardianship Litigations",
@@ -289,7 +289,7 @@ export default function PracticeVerticals() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-[2px] border border-[#C9A24D]/35 bg-[#134074]/40 backdrop-blur-md">
               <span className="w-1.5 h-1.5 rotate-45 bg-[#D4AF37] shadow-[0_0_6px_#D4AF37]" />
               <span className="text-[10px] sm:text-[11px] font-sans uppercase tracking-[0.22em] text-[#E8D091] font-semibold truncate">
-                Chambers Specializations
+                Our Specializations
               </span>
             </div>
 
@@ -509,7 +509,7 @@ export default function PracticeVerticals() {
             href="#contact"
             className="inline-flex items-center justify-center gap-2.5 px-6 py-3 rounded-[2px] bg-gradient-to-r from-[#C9A24D] via-[#DFBF6E] to-[#B38A33] hover:brightness-110 text-[#001730] font-semibold text-xs tracking-[0.16em] uppercase transition-all shadow-[0_4px_20px_rgba(201,162,77,0.22)] shrink-0 text-center"
           >
-            <span>Consult Our Chambers</span>
+            <span>Consult Now</span>
             <ArrowUpRight className="w-3.5 h-3.5 text-[#001730]" />
           </Link>
         </div>
@@ -552,7 +552,7 @@ export default function PracticeVerticals() {
                   </div>
                   <div>
                     <div className="text-[10px] uppercase font-sans tracking-[0.2em] text-[#96702A] font-semibold">
-                      Chambers Vertical Overview
+                      Firm Vertical Overview
                     </div>
                     <h4 className="font-serif text-lg sm:text-2xl text-[#001730] font-medium tracking-tight">
                       {activeModal.name}

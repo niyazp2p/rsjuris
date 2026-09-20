@@ -76,7 +76,7 @@ export default function ContactSection() {
               Home
             </Link>
             <ChevronRight className="w-3 h-3 text-[#96702A]" />
-            <span className="text-[#E5BD79] font-semibold">Contact Chambers</span>
+            <span className="text-[#E5BD79] font-semibold">Contact Firm</span>
           </motion.div>
 
           {/* Eyebrow Pill */}
@@ -101,7 +101,7 @@ export default function ContactSection() {
           >
             Speak With Our <br />
             <span className="italic font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#FFF6E5] via-[#E5BD79] to-[#96702A] drop-shadow-[0_1px_3px_rgba(0,0,0,0.85)]">
-              Chamber Legal Team
+            Legal Team
             </span>
           </motion.h1>
 
@@ -180,10 +180,10 @@ export default function ContactSection() {
                     </div>
                     <div className="space-y-0.5 leading-relaxed">
                       <span className="block text-[10px] font-mono uppercase tracking-wider text-[#96702A] font-semibold">
-                        Chambers Address:
+                        Firm Address:
                       </span>
                       <div className="text-slate-800 font-medium">
-                        Chamber Precinct, Lawyers Chambers Block,
+                        Firm Precinct, Lawyers Block,
                       </div>
                       <div className="text-slate-600 font-light">
                         Supreme Court &amp; Delhi High Court Environs, New Delhi - 110001
@@ -239,7 +239,7 @@ export default function ContactSection() {
                     </div>
                     <div className="space-y-1 leading-relaxed w-full">
                       <span className="block text-[10px] font-mono uppercase tracking-wider text-[#96702A] font-semibold">
-                        Chamber Hours:
+                        Firm Hours:
                       </span>
                       <div className="flex flex-col gap-0.5 text-xs">
                         <div className="flex items-baseline justify-between gap-2">
@@ -338,7 +338,7 @@ export default function ContactSection() {
                         Confidential Client Intake Form
                       </span>
                       <h3 className="font-serif text-xl sm:text-2xl text-[#001C41] font-normal mt-0.5">
-                        Initiate Chamber Review
+                        Initiate Firm Review
                       </h3>
                     </div>
 

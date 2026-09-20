@@ -35,10 +35,10 @@ const serviceLinks = [
 ];
 
 const socials = [
-  { href: "https://facebook.com", icon: FacebookIcon, label: "Facebook" },
-  { href: "https://instagram.com", icon: InstagramIcon, label: "Instagram" },
-  { href: "https://linkedin.com", icon: LinkedinIcon, label: "LinkedIn" },
-  { href: "https://twitter.com", icon: TwitterIcon, label: "X" },
+  { href: "https://www.facebook.com/profile.php?id=61594537351093&mibextid=wwXIfr&mibextid=wwXIfr", icon: FacebookIcon, label: "Facebook" },
+  { href: "https://www.instagram.com/rsjurisco?stkn=MTVkYzIxMTFhYWxjNg%3D%3D&utm_source=qr", icon: InstagramIcon, label: "Instagram" },
+  { href: "https://www.linkedin.com/in/rsjurisandco?utm_source=share_via&utm_content=profile&utm_medium=member_ios", icon: LinkedinIcon, label: "LinkedIn" },
+  { href: "https://x.com/rsjurisco?s=11", icon: TwitterIcon, label: "X" },
   { href: "mailto:contact@rsjuris.com", icon: MailIcon, label: "Email" },
 ];
 

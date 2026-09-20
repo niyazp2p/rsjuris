@@ -18,9 +18,9 @@ import {
 const contactDetails = [
   {
     icon: MapPin,
-    title: "Chamber Address",
-    primary: "Chambers of RS Juris & Co.",
-    secondary: "Supreme Court & Delhi High Court Bar Chambers",
+    title: "Firm Address",
+    primary: "RS Juris & Co.",
+    secondary: "Supreme Court & Delhi High Court",
     detail: "New Delhi, Delhi 110001, India",
     actionLabel: "View on Map",
     actionHref: "https://maps.google.com",
@@ -45,7 +45,7 @@ const contactDetails = [
   },
   {
     icon: Clock,
-    title: "Chamber Hours",
+    title: "Firm Hours",
     primary: "Monday – Friday: 09:30 AM – 07:30 PM",
     secondary: "Saturday: 10:00 AM – 03:00 PM (By Appointment)",
     detail: "Court vacation & urgent filing desk operational",
@@ -74,7 +74,7 @@ export default function PreFooterContact() {
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-[2px] border border-[#96702A]/25 bg-[#0B2545]/[0.04]">
               <span className="w-1.5 h-1.5 rotate-45 bg-[#96702A] shadow-[0_0_6px_#96702A] shrink-0" />
               <span className="text-[10px] sm:text-[11px] font-sans uppercase tracking-[0.22em] text-[#96702A] font-semibold">
-                Direct Chamber Registry
+                Direct Registry
               </span>
             </div>
 
@@ -99,7 +99,7 @@ export default function PreFooterContact() {
                 <h2 className="font-serif text-2xl sm:text-4xl lg:text-[2.6rem] text-[#0B2545] font-light tracking-tight leading-[1.14]">
                   Schedule a Consultation. <br className="hidden sm:inline" />
                   <span className="italic font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#96702A] via-[#B38A33] to-[#735218]">
-                    Engage Our Chambers.
+                    Initiate Legal Counsel.
                   </span>
                 </h2>
               </div>

@@ -114,7 +114,7 @@ export default function WhyUs() {
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-[2px] border border-[#96702A]/25 bg-[#0B2545]/[0.04]">
             <span className="w-1.5 h-1.5 rotate-45 bg-[#96702A] shadow-[0_0_6px_#96702A] shrink-0" />
             <span className="text-[10px] sm:text-[11px] font-sans uppercase tracking-[0.22em] text-[#96702A] font-semibold">
-              The Chamber Advantage
+              The  Advantage
             </span>
           </div>
 
@@ -127,7 +127,7 @@ export default function WhyUs() {
 
           <p className="text-slate-600 text-[13.5px] sm:text-base font-light leading-relaxed max-w-2xl">
             We bridge statutory rigor with modern commercial insight. Here is why institutions,
-            founders, and families place their trust in our chambers.
+            founders, and families place their trust in our firm.
           </p>
         </div>
 

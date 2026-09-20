@@ -23,7 +23,7 @@ const stats = [
   },
   {
     icon: MapPin,
-    value: "Pan-India",
+    value: "National & International",
     label: "Jurisdictional Advisory",
   },
 ];
@@ -108,7 +108,7 @@ export default function Hero() {
             />
             <span className="w-1.5 h-1.5 rotate-45 border border-[#D4AF37] bg-[#D4AF37]/40 shadow-[0_0_8px_#D4AF37] shrink-0" />
             <span className="text-[10px] sm:text-[11px] font-sans uppercase tracking-[0.22em] text-[#E8D091] font-semibold">
-              Chambers of RS Juris & Co. • Advocates
+              RS Juris & Co. • Advocates
             </span>
           </motion.div>
 

@@ -153,7 +153,7 @@ export default function AboutHero() {
           {/* Chamber Jurisdiction */}
           <div className="flex items-center justify-center sm:justify-start gap-1.5 text-[9.5px] xs:text-[10px] sm:text-[11px] font-mono tracking-[0.16em] sm:tracking-[0.2em] uppercase text-[#E8D091]/90">
             <span className="w-1 h-1 rounded-full bg-[#C9A24D] sm:hidden shrink-0" />
-            <span>Apex Appellate & Commercial Chambers</span>
+            <span>Apex Appellate & Commercial</span>
           </div>
 
           {/* Location Badge */}
