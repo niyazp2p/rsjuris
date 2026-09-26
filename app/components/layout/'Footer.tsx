@@ -152,18 +152,18 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* COLUMN 4: CHAMBER CONTACT DETAILS (3 Cols) */}
+          {/* COLUMN 4: Firm CONTACT DETAILS (3 Cols) */}
           <div className="lg:col-span-3 space-y-4">
             <div className="text-[11px] uppercase font-sans font-semibold tracking-[0.2em] text-[#E8D091] flex items-center gap-1.5">
               <span className="w-1 h-1 bg-[#D4AF37] rotate-45 shrink-0" />
-              <span>Chamber Registry</span>
+              <span>Firm Registry</span>
             </div>
 
             <div className="space-y-3.5 text-xs font-light">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#D4AF37] shrink-0 mt-0.5" />
                 <span className="text-slate-300/80 leading-snug">
-                  Supreme Court & High Court Bar Chambers, New Delhi, Delhi 110001, India
+                  Supreme Court & High Court Bar Firms, New Delhi, Delhi 110001, India
                 </span>
               </div>
 
@@ -219,7 +219,7 @@ export default function Footer() {
             </Link>
             <span className="w-1 h-1 rounded-full bg-white/20" />
             <Link href="/disclaimer" className="hover:text-[#E8D091] transition-colors">
-              Chamber Disclaimer
+              Firm Disclaimer
             </Link>
           </div>
         </div>

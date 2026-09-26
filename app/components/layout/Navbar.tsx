@@ -27,6 +27,7 @@ import {
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
+  { name: "Management", href: "/management" },
   { name: "Articles", href: "/articles" },
   { name: "Contact", href: "/contact" },
 ];
