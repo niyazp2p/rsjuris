@@ -19,7 +19,7 @@ import {
   MediaSignatureResponse,
 } from "@/types/cms";
 export const API_BASE_URL = 
-  process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+  process.env.NEXT_PUBLIC_API_URL || "https://rsjuris-backend.onrender.com/api/v1";
 
 /**
  * Universal JSON API fetch wrapper with Bearer token injection
