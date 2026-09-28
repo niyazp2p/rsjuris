@@ -122,7 +122,7 @@ export default function Navbar() {
             onMouseEnter={() => setDropdownOpen(true)}
             onMouseLeave={() => setDropdownOpen(false)}
           >
-            <button
+            <button suppressHydrationWarning
               aria-expanded={dropdownOpen}
               className="relative inline-flex items-center gap-1.5 text-[11px] uppercase tracking-[0.2em] font-medium text-[#001730] hover:text-[#96702A] transition-colors py-2 cursor-pointer group"
             >
