@@ -1,12 +1,12 @@
-// middleware.ts
+// proxy.ts
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const sessionCookie = request.cookies.get("rsj_session");
 
-  // 1. If user is on /admin/login and already authenticated, redirect to dashboard
+  // 1. If user is on the login page and already authenticated, redirect to dashboard
   if (pathname === "/admin/login") {
     if (sessionCookie?.value === "true") {
       return NextResponse.redirect(new URL("/admin/dashboard", request.url));

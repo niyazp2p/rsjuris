@@ -34,7 +34,7 @@ export default function LoginPage() {
     setIsLoading(true);
 
     try {
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || "https://rsjuris-backend.onrender.com/api/v1";
 
       const loginRes = await fetch(`${apiUrl}/auth/login/json`, {
         method: "POST",
