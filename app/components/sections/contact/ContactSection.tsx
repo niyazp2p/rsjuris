@@ -31,7 +31,7 @@ const practiceVerticalOptions: MatterType[] = [
   "Banking & Financial Disputes",
   "Intellectual Property Rights",
   "Arbitration & Alternative Dispute Resolution",
-  "General Chamber Advisory / Other",
+  "General Firm Advisory / Other",
 ];
 
 const easeCurve = [0.16, 1, 0.3, 1] as const;
@@ -91,7 +91,7 @@ export default function ContactSection() {
           <div className="inline-flex items-center gap-1.5 text-[10.5px] sm:text-xs tracking-[0.2em] uppercase font-mono mb-4 text-[#E5BD79]">
             <Link href="/" className="hover:text-white transition-colors">Home</Link>
             <ChevronRight className="w-3 h-3 text-[#96702A]" />
-            <span className="font-semibold">Contact Chambers</span>
+            <span className="font-semibold">Contact Firm</span>
           </div>
 
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-[2px] border border-[#96702A]/40 bg-[#000E1F]/80 backdrop-blur-md mb-4 shadow-sm">
@@ -154,7 +154,7 @@ export default function ContactSection() {
                   <div className="flex items-start gap-3">
                     <MapPin className="w-4 h-4 text-[#96702A] shrink-0 mt-0.5" />
                     <div>
-                      <strong className="block text-[#001C41]">Chambers Address:</strong>
+                      <strong className="block text-[#001C41]">Firm Address:</strong>
                       <span>Eden Tower, 4th floor, 7th Cabin, Elev8 co-working, &amp;  91 Sector, Mohali</span>
                     </div>
                   </div>
@@ -238,7 +238,7 @@ export default function ContactSection() {
                         Confidential Client Intake Form
                       </span>
                       <h3 className="font-serif text-xl sm:text-2xl text-[#001C41] font-normal mt-0.5">
-                        Initiate Chamber Review
+                        Initiate Firm Review
                       </h3>
                     </div>
 
@@ -377,7 +377,7 @@ export default function ContactSection() {
               </h2>
             </div>
             <a
-              href="https://maps.google.com/?q=Supreme+Court+of+India+New+Delhi"
+              href="https://maps.app.goo.gl/UTkNHYT8gAMHa8B29"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-1.5 text-xs text-[#001C41] hover:text-[#96702A] font-mono font-semibold uppercase"
@@ -389,8 +389,8 @@ export default function ContactSection() {
 
           <div className="relative w-full h-[320px] rounded-[3px] border border-[#96702A]/25 overflow-hidden shadow-sm">
             <iframe
-              title="Chamber Location Map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.562092193755!2d77.2370123762692!3d28.61291197567678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce2d1c68f1267%3A0x67db9138092cb412!2sSupreme%20Court%20of%20India!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+              title="Firm Location Map"
+              src="https://maps.app.goo.gl/UTkNHYT8gAMHa8B29"
               width="100%"
               height="100%"
               style={{ border: 0 }}
