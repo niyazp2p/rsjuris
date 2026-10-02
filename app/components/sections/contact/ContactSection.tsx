@@ -104,7 +104,7 @@ export default function ContactSection() {
           <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-light text-white leading-tight max-w-3xl">
             Speak With Our <br />
             <span className="italic font-normal text-transparent bg-clip-text bg-gradient-to-r from-[#FFF6E5] via-[#E5BD79] to-[#96702A]">
-              Chamber Legal Team
+              Firm Legal Team
             </span>
           </h1>
 
@@ -125,7 +125,7 @@ export default function ContactSection() {
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-[2px] border border-[#96702A]/25 bg-[#001C41]/[0.04] mb-3">
                   <span className="w-1.5 h-1.5 rotate-45 bg-[#96702A]" />
                   <span className="text-[10px] font-mono uppercase tracking-[0.22em] text-[#96702A] font-semibold">
-                    Chambers Coordinates
+                    Firm Coordinates
                   </span>
                 </div>
                 <h2 className="font-serif text-2xl sm:text-3xl text-[#001C41] font-medium tracking-tight">
@@ -155,7 +155,7 @@ export default function ContactSection() {
                     <MapPin className="w-4 h-4 text-[#96702A] shrink-0 mt-0.5" />
                     <div>
                       <strong className="block text-[#001C41]">Chambers Address:</strong>
-                      <span>Lawyers Chambers Block, Supreme Court &amp; High Court Environs, New Delhi - 110001</span>
+                      <span>Eden Tower, 4th floor, 7th Cabin, Elev8 co-working, &amp;  91 Sector, Mohali</span>
                     </div>
                   </div>
 
@@ -181,7 +181,7 @@ export default function ContactSection() {
                   <div className="flex items-start gap-3">
                     <Clock className="w-4 h-4 text-[#96702A] shrink-0 mt-0.5" />
                     <div>
-                      <strong className="block text-[#001C41]">Chamber Operational Hours:</strong>
+                      <strong className="block text-[#001C41]">Firm Operational Hours:</strong>
                       <span>Mon – Fri: 09:30 AM – 07:30 PM</span>
                       <span className="block text-[11px] text-slate-500">Sat: 10:00 AM – 02:00 PM (By Appointment)</span>
                     </div>

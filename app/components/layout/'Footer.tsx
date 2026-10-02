@@ -163,7 +163,7 @@ export default function Footer() {
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-[#D4AF37] shrink-0 mt-0.5" />
                 <span className="text-slate-300/80 leading-snug">
-                  Supreme Court & High Court Bar Firms, New Delhi, Delhi 110001, India
+                  Eden Tower, 4th floor, 7th Cabin, Elev8 co-working, 91 Sector, Mohali
                 </span>
               </div>
 
