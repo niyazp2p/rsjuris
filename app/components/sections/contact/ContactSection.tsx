@@ -31,7 +31,7 @@ const practiceVerticalOptions: MatterType[] = [
   "Banking & Financial Disputes",
   "Intellectual Property Rights",
   "Arbitration & Alternative Dispute Resolution",
-  "General Firm Advisory / Other",
+  "General Chamber Advisory / Other",
 ];
 
 const easeCurve = [0.16, 1, 0.3, 1] as const;
