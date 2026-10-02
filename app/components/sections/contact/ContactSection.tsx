@@ -390,7 +390,7 @@ export default function ContactSection() {
           <div className="relative w-full h-[320px] rounded-[3px] border border-[#96702A]/25 overflow-hidden shadow-sm">
             <iframe
               title="Firm Location Map"
-              src="https://maps.app.goo.gl/UTkNHYT8gAMHa8B29"
+              src="https://maps.google.com/maps?q=ELEV8+Coworking+Space+Eden+Tower+Sector+91+Mohali&t=&z=16&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
