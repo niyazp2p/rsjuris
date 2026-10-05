@@ -1,3 +1,4 @@
+import FounderSection from "./components/sections/home/FounderSection";
 import Hero from "./components/sections/home/Hero";
 import Overview from "./components/sections/home/Overview";
 import PracticeVerticals from "./components/sections/home/PracticeVerticals";
@@ -11,6 +12,7 @@ export default function Home() {
     <main className="min-h-screen bg-brand-navy">
       <Hero/>
       <Overview/>
+      <FounderSection/>
       <PracticeVerticals/>
       <WhyUs/>
       <ServicesSplit/>
