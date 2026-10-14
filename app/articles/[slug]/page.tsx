@@ -5,12 +5,8 @@ import Link from "next/link";
 import { 
   Clock, 
   ArrowLeft, 
-  Share2, 
   Calendar, 
   Scale, 
-  BookOpen, 
-  User, 
-  CheckCircle2, 
   ChevronRight 
 } from "lucide-react";
 import type { Metadata } from "next";
@@ -20,13 +16,28 @@ interface PageProps {
   params: Promise<{ slug: string }>;
 }
 
-async function fetchArticle(slug: string): Promise<ArticleResponse | null> {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
+
+// Required for static export: Next.js pre-renders every published article into static HTML
+export async function generateStaticParams() {
   try {
-    const res = await fetch(`${apiUrl}/articles/feed/${slug}`, {
-      // Revalidate every 60 seconds or opt out of cache during local dev
-      next: { revalidate: 60 },
-    });
+    const res = await fetch(`${API_BASE}/articles/feed`, { cache: "no-store" });
+    if (!res.ok) return [];
+    
+    const data = await res.json();
+    const articles = Array.isArray(data) ? data : data.items || [];
+    
+    return articles.map((article: { slug: string }) => ({
+      slug: article.slug,
+    }));
+  } catch {
+    return [];
+  }
+}
+
+async function fetchArticle(slug: string): Promise<ArticleResponse | null> {
+  try {
+    const res = await fetch(`${API_BASE}/articles/feed/${slug}`);
 
     if (!res.ok) {
       return null;
