@@ -16,7 +16,7 @@ const menuLinks = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
   { name: "Practice Areas", href: "/practice-areas" },
-  { name: "Our Team", href: "/team" },
+  { name: "Management", href: "/management" },
   { name: "Insights", href: "/insights" },
   { name: "Contact", href: "/contact" },
 ];
@@ -167,7 +167,7 @@ export default function Footer() {
                 </span>
               </div>
 
-              <div className="flex items-start gap-2.5">
+              {/* <div className="flex items-start gap-2.5">
                 <Phone className="w-4 h-4 text-[#D4AF37] shrink-0 mt-0.5" />
                 <div className="flex flex-col space-y-0.5">
                   <a href="tel:+9198100XXXXX" className="hover:text-[#E8D091] transition-colors">
@@ -175,7 +175,7 @@ export default function Footer() {
                   </a>
                   <span className="text-[11px] text-slate-400 font-mono">+91 (011) 2338-XXXX</span>
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex items-start gap-2.5">
                 <Mail className="w-4 h-4 text-[#D4AF37] shrink-0 mt-0.5" />

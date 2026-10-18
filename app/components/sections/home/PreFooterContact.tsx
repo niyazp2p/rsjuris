@@ -27,12 +27,12 @@ const contactDetails = [
   },
   {
     icon: Phone,
-    title: "Direct Registry Lines",
-    primary: "+91 (011) 2338-XXXX",
-    secondary: "+91 98100 XXXXX",
-    detail: "Prior appointment required for senior briefings",
-    actionLabel: "Call Registry",
-    actionHref: "tel:+9198100XXXXX",
+    title: "Direct Consultation",
+    primary: "RS Juris & Co.",
+    secondary: "contact@rsjuris.com",
+    detail: "Initiate Direct Consultation",
+    actionLabel: "Consultation",
+    actionHref: "/contact",
   },
   {
     icon: Mail,
